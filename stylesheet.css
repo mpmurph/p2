@@ -1,0 +1,38 @@
+body {
+	font-family: Tahoma, Geneva, sans-serif;
+	margin-bottom: 50px;
+	color: #494047;
+	background-color: #ffde6c;
+}
+
+header {
+	text-align: center;
+}
+
+img {
+	display: block;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 25px;
+	width:55%;
+	min-width: 600px;
+	max-width: 1200px;
+	background-color: white;
+}
+
+#result {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#actualresult {
+    color: #a0001c;
+    font-weight: bold;
+    font-size: 24px;
+}
