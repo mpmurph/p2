@@ -1,19 +1,20 @@
 <?php
 
-//default the variable that stores the number of words the user wants in their pass-phrase to zero
-$count = 0;
+$count = 0; //default the variable that stores the number of words the user wants in their pass-phrase to zero
+$phraseArray = array(); //create an array to store each word for the pass-phrase as it's generated
+$passPhrase = ""; //create the $passPhrase variable as an empty string, ready to receive the words stored to the $phraseArray
 
 if (array_key_exists ("count", $_GET)) {
 	$count = $_GET["count"]; //the desired number of words in the pass-phrase
 }
 
 if (array_key_exists ("number", $_GET)) {
-	$randomNumber = rand(1, 99); //Generate a random number to append at the end of the pass-phrase
+	$randomNumber = rand(1, 99); //generate a random number to append at the end of the pass-phrase
 }
 
 if (array_key_exists ("symbol", $_GET)) {
-	$symbols = array("$", "%", "!", "!", "*", "#", "@", "+", "?"); //Create an array of symbols to randomly draw from
-	$randomSymbol = $symbols[rand(0, count($symbols)-1)]; //Select a random symbol from that array
+	$symbols = array("$", "%", "!", "!", "*", "#", "@", "+", "?"); //create an array of symbols to randomly draw from
+	$randomSymbol = $symbols[rand(0, count($symbols)-1)]; //select a random symbol from that array
 }
 
 //if (array_key_exists ("alphaonly", $_GET)) {
