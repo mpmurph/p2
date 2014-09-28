@@ -1,5 +1,6 @@
 <?php
 
+//default the variable that stores the number of words the user wants in their pass-phrase to zero
 $count = 0;
 
 if (array_key_exists ("count", $_GET)) {
@@ -34,9 +35,15 @@ if (array_key_exists ("rude", $_GET)) {
 	$wordLists[] = "notreallyrudewords.txt";
 }
 
+//count the number of wordlists that the user selected
 if (array_key_exists ("shakespeare", $_GET) 
 	|| array_key_exists ("nonsense", $_GET) 
 	|| array_key_exists ("rude", $_GET) 
 	|| array_key_exists ("rude", $_GET)) {
 $numberOfLists = count($wordLists);
 }
+
+//create an array of special characters
+
+
+//choose a 

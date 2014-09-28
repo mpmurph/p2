@@ -16,7 +16,7 @@ for ($i=1; $i<=$count; $i++) {
 
 	$line = rand(1, lineCount($wordList)); //count the lines in that list and randomly select a line number
 
-	$openWordList = fopen("/Applications/MAMP/htdocs/p2/wordlists/$wordList", "r");
+	$openWordList = fopen("wordlists/$wordList", "r");
 	$j = 0;
 
 	while (!feof($openWordList) and ($j <$line)) {
