@@ -9,7 +9,7 @@
 
 	<body>
 
-		<?php include("content.php"); ?>
+		<?php require("content.php"); ?>
 
 	</body>
 
