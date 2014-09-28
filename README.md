@@ -15,7 +15,7 @@ None
 ##Outside code and source material
 Links to the four sites where I scraped the word lists:
 
-	*<Nonsense words>(http://phrontistery.info/nonsense.html)
+	*[Nonsense words]<http://phrontistery.info/nonsense.html>
 
 	*[Words in the King James Bible](http://www.apostolic-churches.net/bible/allwords/)
 
