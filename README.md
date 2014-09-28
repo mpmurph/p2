@@ -4,7 +4,7 @@
 <http://p2.harvard-dwa15.me>
 
 ##Description
-This site allows the user to generate a password or passphrase with anywhere from 1-7 words randomly selected from a word database.
+This site allows the user to generate a password or passphrase with anywhere from 1-7 words randomly selected from one (and up to four) word lists.
 
 ##Demo
 TBD
