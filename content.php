@@ -1,19 +1,25 @@
 <div id="wrapper">	
 
 	<header>
-		<h1>King James Shakespeare's<br>Seemingly Rude and Nonsensical<br>Password Generator</h1>
+
+		<img src="images/james-shakespeare-header.jpg" alt="King James Shakespeare's Seemingly Rude and Nonsensical Password Generator">
+		<br>
+
 	</header>
 
 
 	<p>Welcome! This site is designed to generate an <a href="http://xkcd.com/936/">xkcd style</a> pass-phrase with 
 		up to seven words. In contrast to widely used alpha-numeric-special-character passwords, the author of the 
 		xkcd site postulates that it may be more secure and easier for us to use pass-phrases or combinations of 
-		more easily remember-able words (see the below xkcd comic). This site will generate a single random word 
-		if you choose but, the longer your pass-phrase, the more secure it will be.
-
+		more easily remember-able words. The below xkcd comic explains the theory succinctly. You may choose to
+		generate a single random word but, the longer your pass-phrase, the more secure it will be.
 
 		<p><span id="result">Your password:</p>
-		<p><span id="actualresult"><?=$passPhrase?></span></span></p>
+
+		<div id="resultbox">
+			<p><span id="actualresult"><?=$passPhrase?></span></span></p>
+		</div>
+
 
 	<form action="index.php" method="GET">
 
@@ -62,7 +68,7 @@
 		<br>
 		<br>
 
-		<input type="submit" name="submit" value="submit"/>
+		<input type="submit" class="btn btn-success btn-lg" name="submit" value="SUBMIT"/>
 
 	</form>
 
@@ -70,7 +76,7 @@
 	<br>
 
 	<a href="http://xkcd.com/936/">
-	<img src="images/xkcd-comic-strip.png" alt="xkcd password comic strip">
+	<img src="images/xkcd-comic-strip.png" id="xkcdimg" alt="xkcd password comic strip">
 	</a>
 
 </div>
