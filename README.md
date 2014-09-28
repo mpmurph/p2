@@ -10,7 +10,7 @@ This site allows the user to generate a password or passphrase with anywhere fro
 TBD
 
 ##Details for teaching team
-None
+Here is a link to the GitHub repository for the scraping programs I created to generate my word lists: <https://github.com/mpmurph/scraping-programs>
 
 ##Outside code and source material
 Links to the four sites where I scraped the word lists:
