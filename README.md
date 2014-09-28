@@ -1,7 +1,7 @@
 #Problem Set 2
 
 ##Live URL
-[http://p2.harvard-dwa15.me]
+<http://p2.harvard-dwa15.me>
 
 ##Description
 This site allows the user to generate a password or passphrase with anywhere from 1-9 words randomly selected from a word database.
@@ -15,7 +15,7 @@ None
 ##Outside code and source material
 Links to the four sites where I scraped the word lists:
 
-	*[Nonsense words](http://phrontistery.info/nonsense.html)
+	*<Nonsense words>(http://phrontistery.info/nonsense.html)
 
 	*[Words in the King James Bible](http://www.apostolic-churches.net/bible/allwords/)
 
