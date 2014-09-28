@@ -1,9 +1,7 @@
 <?php
 
-$passPhrase = "";
-
 if (!array_key_exists ("submit", $_GET)) {
-	$passPhrase = "will go here";
+	$passPhrase = "will appear here";
 }
 
 else {
@@ -21,8 +19,8 @@ else {
 
 	//If the user does not specify a number of words, they are reminded to do so
 
-	if ($_GET["count"] <= 0 || $_GET["count"] > 8) {
-			$passPhrase = "Please specify a number of words between 1-8!";
+	if ($_GET["count"] <= 0 || $_GET["count"] > 7) {
+			$passPhrase = "Please specify a number of words between 1-7!";
 	}
 
 }

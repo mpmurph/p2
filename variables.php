@@ -8,12 +8,17 @@ if (array_key_exists ("count", $_GET)) {
 }
 
 if (array_key_exists ("number", $_GET)) {
-	$wantNumber = $_GET["number"]; //Boolean value as to whether the user wants a number appended to the pass-phrase
+	$randomNumber = rand(1, 99); //Generate a random number to append at the end of the pass-phrase
 }
 
 if (array_key_exists ("symbol", $_GET)) {
-	$wantSymbol = $_GET["symbol"]; //Boolean value as to whether the user wants a symbol appended to the pass-phrase
+	$symbols = array("$", "%", "!", "!", "*", "#", "@", "+", "?"); //Create an array of symbols to randomly draw from
+	$randomSymbol = $symbols[rand(0, count($symbols)-1)]; //Select a random symbol from that array
 }
+
+//if (array_key_exists ("alphaonly", $_GET)) {
+//	$wantAlphaOnly = $_GET["alphaonly"]; //Boolean value as to whether the user wants words solely made up of alphabetical characters (i.e. no possessives or hyphenated words)
+//}
 
 if (array_key_exists ("james", $_GET)) {
 	$wantJames = $_GET["james"]; //Boolean value as to whether the user wants to use the King James word list
@@ -42,8 +47,3 @@ if (array_key_exists ("shakespeare", $_GET)
 	|| array_key_exists ("rude", $_GET)) {
 $numberOfLists = count($wordLists);
 }
-
-//create an array of special characters
-
-
-//choose a 

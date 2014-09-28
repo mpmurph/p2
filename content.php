@@ -6,27 +6,36 @@
 
 
 	<p>Welcome! This site is designed to generate an <a href="http://xkcd.com/936/">xkcd style</a> pass-phrase with 
-		up to seven words. You can choose to generate a single word, but we recommend a minimum of four words for 
-		security's sake in line with the xkcd theory (as expressed in the below comic strip).
+		up to seven words. In contrast to widely used alpha-numeric-special-character passwords, the author of the 
+		xkcd site postulates that it may be more secure and easier for us to use pass-phrases or combinations of 
+		more easily remember-able words (see the below xkcd comic). This site will generate a single random word 
+		if you choose but, the longer your pass-phrase, the more secure it will be.
 
-		<p><span id="result">Your password: <span id="actualresult"><?=$passPhrase?></span></span></p>
+
+		<p><span id="result">Your password:</p>
+		<p><span id="actualresult"><?=$passPhrase?></span></span></p>
 
 	<form action="index.php" method="GET">
 
 		<h4>Pass-phrase parameters:</h4>
 
-		<label name="count">Number of words (no more than 8):</label>
+		<label name="count">Number of words (no more than 7):</label>
 		<input type="text" id="count" name="count" />
 
 		<br>
 
-		<label name="number">Include a number:</label>
+		<label name="number">Include a random number (1-99) at the end:</label>
 		<input type="checkbox" id="number" name="number" />
 
 		<br>
 
 		<label name="symbol">Include a special symbol:</label>
 		<input type="checkbox" id="symbol" name="symbol" />
+
+		<br>
+
+		<label name="alphaonly">Exclude possessives (i.e. words with apostrophes) and hyphenated words:</label>
+		<input type="checkbox" id="alphaonly" name="alphaonly" />
 
 		<br>
 

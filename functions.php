@@ -2,7 +2,7 @@
 
 function lineCount($txtfile) {
 	
-	$fileBeingRead = fopen("/Applications/MAMP/htdocs/p2/wordlists/$txtfile", "r");
+	$fileBeingRead = fopen("wordlists/$txtfile", "r");
 	$lineNumber = 0;
 
 	while(fgets($fileBeingRead)) {
