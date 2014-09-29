@@ -21,7 +21,7 @@
 			</div>
 
 
-	<form action="index.php" method="get">
+	<form action="index.php" method="GET">
 
 		<h4>Pass-phrase parameters:</h4>
 
