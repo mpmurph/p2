@@ -7,7 +7,7 @@
 This site allows the user to generate a password or passphrase with anywhere from 1-7 words randomly selected from one (and up to four) word lists.
 
 ##Demo
-TBD
+I will demonstrate my P2 in section on Friday.
 
 ##Details for teaching team
 Here is a link to the GitHub repository for the scraping programs I created to generate my word lists: <https://github.com/mpmurph/scraping-programs>
@@ -25,6 +25,8 @@ Links to the four sites where I scraped the word lists:
 
 Image sources:
 
-....* [Shakespeare portrait (prior to graffiti)](http://commons.wikimedia.org/wiki/Category:Portraits_of_William_Shakespeare#mediaviewer/File:Shakespeare_Droeshout_1623.jpg)
+....* [Shakespeare's portrait (prior to graffiti)](http://commons.wikimedia.org/wiki/Category:Portraits_of_William_Shakespeare#mediaviewer/File:Shakespeare_Droeshout_1623.jpg)
 
-....* [King James portrait (prior to graffiti)](http://commons.wikimedia.org/wiki/File:Portrait_of_King_James_I_%26_VI.jpg)
+....* [King James' portrait (prior to graffiti)](http://commons.wikimedia.org/wiki/File:Portrait_of_King_James_I_%26_VI.jpg)
+
+....* [xkcd comic](http://xkcd.com/936/)
