@@ -2,7 +2,7 @@
 
 	<title>King James Shakespeare's Seemingly Rude and Nonsensical Password Generator</title>
 
-	<meta charset="UTF-8"/>
+	<meta charset="utf-8"/>
 	<meta name="description" content="password generator"/>
 	<meta name="keywords" content="password, passwords, generator, generation, generating, Shakespeare, King James Bible, nonsense, rude"/>
 

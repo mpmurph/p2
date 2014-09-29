@@ -3,7 +3,7 @@
 	<header>
 
 		<img src="images/james-shakespeare-header.jpg" alt="King James Shakespeare's Seemingly Rude and Nonsensical Password Generator"/>
-		<br>
+		<br/>
 
 	</header>
 
@@ -21,11 +21,11 @@
 			</div>
 
 
-	<form action="index.php" method="GET">
+	<form action="index.php" method="get">
 
 		<h4>Pass-phrase parameters:</h4>
 
-		<label name="count">Number of words (no more than 7):</label>
+		<label for="count">Number of words (no more than 7):</label>
 		<input type="text" id="count" name="count" <?php if (array_key_exists ("count", $_GET)) { echo "value=\"$_GET[count]\"";}?> />
 
 		<br/>
