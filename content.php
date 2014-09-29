@@ -30,39 +30,39 @@
 
 		<br/>
 
-		<label name="number">Include a random number (1-99) at the end:</label>
+		<label for="number">Include a random number (1-99) at the end:</label>
 		<input type="checkbox" id="number" name="number" <?php if (array_key_exists ("number", $_GET)) { echo "checked";}?> />
 
 		<br/>
 
-		<label name="symbol">Include a special symbol:</label>
+		<label for="symbol">Include a special symbol:</label>
 		<input type="checkbox" id="symbol" name="symbol" <?php if (array_key_exists ("symbol", $_GET)) { echo "checked";}?> />
 
 		<br/>
 
-		<label name="alphaonly">Exclude possessives (i.e. words with apostrophes) and hyphenated words:</label>
+		<label for="alphaonly">Exclude possessives (i.e. words with apostrophes) and hyphenated words:</label>
 		<input type="checkbox" id="alphaonly" name="alphaonly" <?php if (array_key_exists ("alphaonly", $_GET)) { echo "checked";}?> />
 
 		<br/>
 
 		<h4>Choose your word lists (minimum of 1):</h4>
 
-		<label name="james">King James Bible:</label>
+		<label for="james">King James Bible:</label>
 		<input type="checkbox" id="james" name="james" <?php if (array_key_exists ("james", $_GET)) { echo "checked";}?> />
 
 		<br/>
 
-		<label name="shakespeare">Shakespeare's Plays:</label>
+		<label for="shakespeare">Shakespeare's Plays:</label>
 		<input type="checkbox" id="shakespeare" name="shakespeare" <?php if (array_key_exists ("shakespeare", $_GET)) { echo "checked";}?> />
 
 		<br/>
 
-		<label name="nonsense">Nonsense Words:</label>
+		<label for="nonsense">Nonsense Words:</label>
 		<input type="checkbox" id="nonsense" name="nonsense" <?php if (array_key_exists ("nonsense", $_GET)) { echo "checked";}?> />
 
 		<br/>
 
-		<label name="rude">Words That Sound Rude (<a href="http://mentalfloss.com/article/58036/50-words-sound-rude-actually-arent">but aren't</a>):</label>
+		<label for="rude">Words That Sound Rude (<a href="http://mentalfloss.com/article/58036/50-words-sound-rude-actually-arent">but aren't</a>):</label>
 		<input type="checkbox" id="rude" name="rude" <?php if (array_key_exists ("rude", $_GET)) { echo "checked";}?> />
 
 		<br/>
