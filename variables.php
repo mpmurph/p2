@@ -17,10 +17,6 @@ if (array_key_exists ("symbol", $_GET)) {
 	$randomSymbol = $symbols[rand(0, count($symbols)-1)]; //select a random symbol from that array
 }
 
-//if (array_key_exists ("alphaonly", $_GET)) {
-//	$wantAlphaOnly = $_GET["alphaonly"]; //Boolean value as to whether the user wants words solely made up of alphabetical characters (i.e. no possessives or hyphenated words)
-//}
-
 if (array_key_exists ("james", $_GET)) {
 	$wantJames = $_GET["james"]; //Boolean value as to whether the user wants to use the King James word list
 	$wordLists[] = "biblewords.txt"; //create an array of the word lists the user wants to use
