@@ -30,3 +30,7 @@ Image sources:
 ....* [King James' portrait (prior to graffiti)](http://commons.wikimedia.org/wiki/File:Portrait_of_King_James_I_%26_VI.jpg)
 
 ....* [xkcd comic](http://xkcd.com/936/)
+
+Other:
+
+In <head>, this site links to Bootstrap CSS stylesheet version 3.2.0.
