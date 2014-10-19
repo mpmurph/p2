@@ -33,4 +33,4 @@ Image sources:
 
 Other:
 
-In <head>, this site links to Bootstrap CSS stylesheet version 3.2.0.
+In head.php, this site links to Bootstrap CSS stylesheet version 3.2.0.
